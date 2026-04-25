@@ -1,0 +1,49 @@
+.top-header{
+
+    display: flex;
+    margin: 1.5rem;
+    
+    img{
+        margin-right: auto;
+    }
+
+    .header-top-buttons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & a{
+            padding-inline: 1rem;
+        }
+        
+    }
+}
+
+.link-style{
+        color: var(--text-color-secondary);
+        font: var(--paragraph);
+
+        text-decoration: none;
+        
+}
+
+.download-button{
+    
+    background-color: var(--text-color-primary);
+    color: var(--background-color);
+    text-decoration: none;
+    font: var(--paragraph);
+
+    border: none;
+    border-radius: 0.45rem;
+    padding-block: 12px;
+    padding-inline: 24px;
+}
+
+@media (max-width: 768px){
+
+    .header-top-buttons{
+        opacity: 0;
+
+        position: absolute;
+    }
+}
