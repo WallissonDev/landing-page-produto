@@ -1,0 +1,39 @@
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+
+    margin-block: 5rem;
+    p{
+        font: var(--paragraph);
+        color: var(--text-color-secondary);
+        font-size: 2.5rem;
+    }
+}
+
+
+h1{
+    font: var(--h1);
+    color: var(--text-color-primary);
+}
+
+/* Versão mobile */
+@media (max-width: 768px){
+
+    .introduction{
+        p{
+            font-size: 1.5rem;
+        }
+        
+        img{
+            width: 55%;
+        }
+
+        h1{
+            text-align: center;
+        }
+    }
+        
+}

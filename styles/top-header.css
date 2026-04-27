@@ -39,6 +39,22 @@
     padding-inline: 24px;
 }
 
+.transparent-button{
+    
+    background-color: black;
+    border: 1px solid var(--text-color-primary);
+    color: var(--text-color-primary);
+    text-decoration: none;
+    font: var(--paragraph);
+
+    border-radius: 0.45rem;
+    padding-block: 12px;
+    padding-inline: 24px;
+
+    margin-right: 1rem;
+}
+
+
 @media (max-width: 768px){
 
     .header-top-buttons{

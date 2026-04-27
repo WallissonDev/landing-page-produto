@@ -23,7 +23,8 @@
 }
 
 /* Fontes Mobile */
-    @media (max--width: 768px){
+@media (max-width: 768px){
+
     :root{
         --font-family: "Inter", sans-serif;
         --h1: 800 2.5rem/120% var(--font-family);
