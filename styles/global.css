@@ -44,3 +44,8 @@
 body{
     background-color: var(--background-color);
 }
+
+p{
+    font: var(--paragraph);
+    color: var(--text-color-secondary);
+}

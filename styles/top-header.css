@@ -40,8 +40,7 @@
 }
 
 .transparent-button{
-    
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     border: 1px solid var(--text-color-primary);
     color: var(--text-color-primary);
     text-decoration: none;
