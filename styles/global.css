@@ -49,3 +49,8 @@ p{
     font: var(--paragraph);
     color: var(--text-color-secondary);
 }
+
+h3{
+    color: var(--text-color-primary);
+    font: var(--h3);
+}

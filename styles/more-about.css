@@ -8,7 +8,7 @@
     border-top-left-radius: 1%;
     border-top-right-radius: 1%;
 
-    background-color: var(--surface-color);
+    background-color: var(--stroke-color);
     position: relative;
 
 
@@ -27,7 +27,7 @@
 .more-about:after{
     position: absolute;
     content: "";
-    background-color: var(--surface-color);
+    background-color: var(--stroke-color);
     top: -6%;
     left: 0%;
     width: 100%;
