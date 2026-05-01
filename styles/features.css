@@ -2,7 +2,7 @@
 
     padding: 1rem;
 
-    background-color: var(--surface-color);
+    background-color: var(--background-color);
 
     & div{
         max-height: 592px;
