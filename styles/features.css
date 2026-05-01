@@ -114,7 +114,12 @@
     }
 
     .features{
-        all: unset;
+        display: flex;
+        flex-direction: column;
+
+        & div{
+            max-height: 100%;
+        }
     }
 
     .grid-wrapper-two, .grid-wrapper-one{
@@ -122,10 +127,12 @@
 
         display: flex;
         flex-direction: column;
-        gap: 30px;
+
+        & div{
+            flex: 1 0;
+            margin-block: 1.5rem;
+            margin-inline: 0.5rem;
+        }
     }
 
-    .text-content{
-        all: unset;
-    }
 }
