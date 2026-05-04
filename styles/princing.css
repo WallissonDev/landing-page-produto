@@ -1,5 +1,6 @@
 section.princing{
-    margin-top: 2rem;
+
+    margin-block: 4rem;
 
     header{
         display: flex;
@@ -12,17 +13,23 @@ section.princing{
 
     .cards-container{
         display: flex;
+        
         gap: 2rem;
         justify-content: center;
+        align-items: center;
+
+        
     }
 
     .plan-card{
         display: flex;
         flex-direction: column;
 
-        padding: 2rem;
-        max-width: 584px;
         min-height: 480px;
+
+        padding: 2rem;
+
+
         background-color: var(--surface-color);
         border-radius: 20px;
         
@@ -64,4 +71,38 @@ section.princing{
             }
         }
     }
+
+    & #premium-card{
+        position: relative;
+        height: 620px;
+
+        border: 2px solid transparent; /* Borda transparente */
+        border-radius: 20px; /* Arredondamento */
+        background-image: linear-gradient(var(--surface-color)), var(--brand-gradient); /* Cores da borda */
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        
+
+    & h3{
+        margin-top: 2rem;
+    }    
+    & span{
+        font: var(--span);
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        padding: 1rem;
+        border-top-left-radius: 18px;
+        border-bottom-right-radius: 20px;
+        background-image: var(--brand-gradient);
+
+    }    
+}
+}
+
+/* Área do mobile */
+
+@media (max-width: 768px){
+
+
 }

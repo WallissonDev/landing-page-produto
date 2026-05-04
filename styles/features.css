@@ -41,7 +41,7 @@
 .features-div-one{
     display: flex;
     flex-direction: row;
-
+    
     position: relative;
     overflow: hidden;
 }
