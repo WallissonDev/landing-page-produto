@@ -1,0 +1,63 @@
+
+
+.download-container{
+    background-color: var(--stroke-color);
+    margin: 5rem 2rem;
+
+    padding: 8rem 5rem;
+
+    border-radius: 20px;
+
+}
+
+.boy-container{
+    position: relative;
+}
+
+.headset-boy{
+    position: absolute;
+
+    width: 30%;
+
+
+    top: 35%;
+    left: 80%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+}
+
+.text-download{
+    max-width: 640px;
+}
+
+.app-container{
+    display: flex;
+
+    & a{
+        text-decoration: none;
+    }
+
+    & p{
+        font-size: 70%;
+    }
+
+    & h3{
+        font-size: 95%;
+    }
+}
+
+.download-button-app{
+    display: flex;
+
+    min-width: 180px;
+    gap: 1rem;
+
+    background-color: var(--background-color);
+    border: 1px solid white;
+    border-radius: 10px;
+
+    padding: 0.5rem;
+
+    margin: 2.5rem 1rem 0px 0px;
+
+}
