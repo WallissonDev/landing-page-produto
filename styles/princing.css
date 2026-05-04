@@ -104,5 +104,15 @@ section.princing{
 
 @media (max-width: 768px){
 
+    .princing{
+        & header h1{
+            padding-top: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+    .cards-container{
+        flex-direction: column;
+        margin: 1rem;
+    }
 
 }
