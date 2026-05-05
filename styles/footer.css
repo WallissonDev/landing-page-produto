@@ -1,3 +1,11 @@
+footer{
+    display: flex;
+    flex-direction: column;
+
+    max-width: 100%;
+    margin: 2rem;
+}
+
 .footer-info{
     display: flex;
     
@@ -27,4 +35,17 @@
             color: var(--text-color-secondary);
         }
     }
+}
+
+.medias-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-inline: 2rem;
+}
+
+.link-medias{
+    display: flex;
+    gap: 1rem;
 }
