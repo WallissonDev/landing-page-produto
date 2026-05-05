@@ -1,0 +1,30 @@
+.footer-info{
+    display: flex;
+    
+    align-items: flex-start;
+    width: 100%;
+    margin: 2rem;
+
+    & img{
+        margin-right: auto;
+        
+    }
+
+    & div{
+        display: flex;
+        flex-direction: column;
+
+        margin-right: 10rem;
+
+        & small{
+            padding-block: 0.5rem;
+        }
+
+        & a{
+            padding-block: 0.5rem;
+            text-decoration: none;
+            font: var(--paragraph);
+            color: var(--text-color-secondary);
+        }
+    }
+}
