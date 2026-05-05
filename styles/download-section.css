@@ -2,6 +2,8 @@
 
 .download-container{
     background-color: var(--stroke-color);
+
+    display: flex;
     margin: 5rem 2rem;
 
     padding: 8rem 5rem;
@@ -12,16 +14,18 @@
 
 .boy-container{
     position: relative;
+    width: 300px;
+    flex-grow: 0;
 }
 
 .headset-boy{
     position: absolute;
 
-    width: 30%;
+    max-width: 150%;
+    height: auto;
+    top: 34%;
+    left: 180%;
 
-
-    top: 35%;
-    left: 80%;
     overflow: hidden;
     transform: translate(-50%, -50%);
 }
@@ -59,5 +63,45 @@
     padding: 0.5rem;
 
     margin: 2.5rem 1rem 0px 0px;
+
+}
+
+@media (max-width: 768px){
+
+    .download-container{
+        flex-direction: column;
+        margin: 1.5rem;
+        padding: 2rem 1.5rem 15rem 1.5rem;
+    }
+
+    .app-container{
+        flex-direction: column;
+
+    }
+    
+    .download-button-app{
+        margin: 0.75rem 0px 0.25rem 0px;
+
+        max-width: 100px;
+    }
+
+    .text-download{
+        max-width: 100%;
+
+        & h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    .boy-container{
+        width: 50%;
+        height: 50px;
+    }
+
+    .headset-boy{
+        top: 245%;
+        left: 150%;
+
+    }
 
 }
