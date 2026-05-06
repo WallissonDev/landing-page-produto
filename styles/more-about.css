@@ -72,8 +72,8 @@ small{
         img{
             position: absolute;
 
-            top: -35%;
-            width: 75%;
+            top: -42%;
+            width: 50%;
 
         }
     }
@@ -93,3 +93,5 @@ small{
         max-width: 100%;
     }
 }
+
+@media

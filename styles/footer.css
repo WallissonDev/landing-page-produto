@@ -49,3 +49,10 @@ footer{
     display: flex;
     gap: 1rem;
 }
+
+/* Área do mobile */
+
+.footer-info, .medias-copyright{
+    flex-direction: column;
+    gap: 2rem;
+}
