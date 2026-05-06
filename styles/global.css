@@ -59,3 +59,14 @@ h2{
     color: var(--text-color-primary);
     font: var(--h2);
 }
+
+.download-button:hover{
+    background-image: var(--brand-gradient);
+}
+
+.transparent-button:hover{
+    border: 1px solid transparent; /* Borda transparente */
+    background-image: linear-gradient(var(--background-color)), var(--brand-gradient); /* Cores da borda */
+    background-origin: border-box;
+    background-clip: padding-box, border-box; 
+}

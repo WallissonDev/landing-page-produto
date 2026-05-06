@@ -34,6 +34,10 @@ footer{
             font: var(--paragraph);
             color: var(--text-color-secondary);
         }
+
+        & a:hover{
+            text-decoration: underline;
+        }
     }
 }
 
@@ -50,9 +54,21 @@ footer{
     gap: 1rem;
 }
 
-/* Área do mobile */
+.link-medias svg path{
+    fill: #A1A1AA;
+    transition: fill 0.25s ease;
+}
 
-.footer-info, .medias-copyright{
+.link-medias a:hover svg path{
+    fill: url(#brandGradient);
+}
+
+/* Área do mobile */
+@media (max-width: 768px) {
+    .footer-info, .medias-copyright{
     flex-direction: column;
     gap: 2rem;
 }
+}
+
+
