@@ -34,6 +34,10 @@ footer{
             font: var(--paragraph);
             color: var(--text-color-secondary);
         }
+
+        & a:hover{
+            text-decoration: underline;
+        }
     }
 }
 
@@ -49,3 +53,22 @@ footer{
     display: flex;
     gap: 1rem;
 }
+
+.link-medias svg path{
+    fill: #A1A1AA;
+    transition: fill 0.25s ease;
+}
+
+.link-medias a:hover svg path{
+    fill: url(#brandGradient);
+}
+
+/* Área do mobile */
+@media (max-width: 768px) {
+    .footer-info, .medias-copyright{
+    flex-direction: column;
+    gap: 2rem;
+}
+}
+
+
